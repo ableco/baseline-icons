@@ -1,12 +1,12 @@
-import * as React from "react";
-import cx from "clsx";
+import * as React from 'react';
+import cx from 'clsx';
 
 type BaseProps = {
-  className?: string | { [className: string]: boolean }
-}
+  className?: string | { [className: string]: boolean };
+};
 
 export function CaretRight(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -29,7 +29,7 @@ export function CaretRight(props: BaseProps): JSX.Element {
 }
 
 export function CaretDown(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -52,7 +52,7 @@ export function CaretDown(props: BaseProps): JSX.Element {
 }
 
 export function Add(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -75,7 +75,7 @@ export function Add(props: BaseProps): JSX.Element {
 }
 
 export function ArrowDown(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -102,7 +102,7 @@ export function ArrowDown(props: BaseProps): JSX.Element {
 }
 
 export function Users(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -125,7 +125,7 @@ export function Users(props: BaseProps): JSX.Element {
 }
 
 export function User(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -148,7 +148,7 @@ export function User(props: BaseProps): JSX.Element {
 }
 
 export function UserFolder(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -171,7 +171,7 @@ export function UserFolder(props: BaseProps): JSX.Element {
 }
 
 export function Suitcase(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -194,7 +194,7 @@ export function Suitcase(props: BaseProps): JSX.Element {
 }
 
 export function Spinner(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -217,7 +217,7 @@ export function Spinner(props: BaseProps): JSX.Element {
 }
 
 export function Smile(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -240,7 +240,7 @@ export function Smile(props: BaseProps): JSX.Element {
 }
 
 export function Projects(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -263,7 +263,7 @@ export function Projects(props: BaseProps): JSX.Element {
 }
 
 export function Note(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -286,7 +286,7 @@ export function Note(props: BaseProps): JSX.Element {
 }
 
 export function Meh(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -309,7 +309,7 @@ export function Meh(props: BaseProps): JSX.Element {
 }
 
 export function Loading(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -332,7 +332,7 @@ export function Loading(props: BaseProps): JSX.Element {
 }
 
 export function Home(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -356,7 +356,7 @@ export function Home(props: BaseProps): JSX.Element {
 }
 
 export function Frown(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -379,7 +379,7 @@ export function Frown(props: BaseProps): JSX.Element {
 }
 
 export function EllipsisHorizontal(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -402,7 +402,7 @@ export function EllipsisHorizontal(props: BaseProps): JSX.Element {
 }
 
 export function EllipsisVertical(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -426,7 +426,7 @@ export function EllipsisVertical(props: BaseProps): JSX.Element {
 }
 
 export function Edit(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -449,7 +449,7 @@ export function Edit(props: BaseProps): JSX.Element {
 }
 
 export function Download(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -472,7 +472,7 @@ export function Download(props: BaseProps): JSX.Element {
 }
 
 export function Delete(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -495,7 +495,7 @@ export function Delete(props: BaseProps): JSX.Element {
 }
 
 export function CustomerService(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -527,7 +527,7 @@ export function CustomerService(props: BaseProps): JSX.Element {
 }
 
 export function Close(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -550,7 +550,7 @@ export function Close(props: BaseProps): JSX.Element {
 }
 
 export function Clock(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -573,7 +573,7 @@ export function Clock(props: BaseProps): JSX.Element {
 }
 
 export function Check(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -596,7 +596,7 @@ export function Check(props: BaseProps): JSX.Element {
 }
 
 export function Chart(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -619,7 +619,7 @@ export function Chart(props: BaseProps): JSX.Element {
 }
 
 export function CaretUp(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -642,7 +642,7 @@ export function CaretUp(props: BaseProps): JSX.Element {
 }
 
 export function CaretLeft(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -665,7 +665,7 @@ export function CaretLeft(props: BaseProps): JSX.Element {
 }
 
 export function Calendar(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -688,7 +688,7 @@ export function Calendar(props: BaseProps): JSX.Element {
 }
 
 export function CalendarEmpty(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -711,7 +711,7 @@ export function CalendarEmpty(props: BaseProps): JSX.Element {
 }
 
 export function Bell(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -734,7 +734,7 @@ export function Bell(props: BaseProps): JSX.Element {
 }
 
 export function Lock(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -756,7 +756,7 @@ export function Lock(props: BaseProps): JSX.Element {
 }
 
 export function CaretLeftOutline(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -779,7 +779,7 @@ export function CaretLeftOutline(props: BaseProps): JSX.Element {
 }
 
 export function CaretRightOutline(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
@@ -802,7 +802,7 @@ export function CaretRightOutline(props: BaseProps): JSX.Element {
 }
 
 export function CaretDownOutline(props: BaseProps): JSX.Element {
-  const className = cx(props.className, "fill-current");
+  const className = cx(props.className, 'fill-current');
   return (
     <svg
       width="24px"
