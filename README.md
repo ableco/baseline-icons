@@ -1,7 +1,7 @@
 # Baseline Icons
 
 [![CI Workflow](https://github.com/ableco/baseline-icons/workflows/CI/badge.svg)](https://github.com/ableco/baseline-icons/actions?workflow=CI)
-[![Publish Workflow](https://github.com/ableco/baseline-icons/workflows/Publish/badge.svg)](https://github.com/ableco/baseline-icons/actions?workflow=Publish)
+[![Release Workflow](https://github.com/ableco/baseline-icons/workflows/Release/badge.svg)](https://github.com/ableco/baseline-icons/actions?workflow=Release)
 [![Maintainability](https://api.codeclimate.com/v1/badges/dc8ca837f0443633fda0/maintainability)](https://codeclimate.com/repos/5d965fea478d1f6328000720/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dc8ca837f0443633fda0/test_coverage)](https://codeclimate.com/repos/5d965fea478d1f6328000720/test_coverage)
 ![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=ableco/baseline-icons&identifier=211389596)
