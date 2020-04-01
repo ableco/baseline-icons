@@ -823,3 +823,96 @@ export function CaretDownOutline(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function CaretUpOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <defs>
+        <path
+          d="M20.993 16.966c0-.225-.075-.452-.225-.642l-7.99-9.933a1.025 1.025 0 00-1.596 0l-7.948 9.891a1.024 1.024 0 001.596 1.282l7.151-8.897 7.19 8.942a1.024 1.024 0 001.822-.643z"
+          id="a"
+        />
+      </defs>
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <mask fill="#fff">
+          <use xlinkHref="#a" />
+        </mask>
+        <use fillOpacity={0.85} fill="#000" fillRule="nonzero" xlinkHref="#a" />
+      </g>
+    </svg>
+  );
+}
+
+export function Tag(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M22.542 14.252a1.72 1.72 0 00-.497-1.137L10.833 1.8a1.14 1.14 0 00-.809-.338h-6.81c-.966 0-1.75.774-1.75 1.73v6.99c0 .074.008.147.022.217l.012.054c.014.054.03.106.051.155.007.016.014.033.024.049.054.115.129.22.222.314l5.6 5.531 5.599 5.532c.129.126.272.23.424.309a1.772 1.772 0 002.05-.31l6.563-6.487a1.822 1.822 0 00.24-.295 1.587 1.587 0 00.126-.237 1.67 1.67 0 00.145-.762zm-1.687.082v.005c-.003.002-.003.005-.003.005l-.004.004-6.565 6.483a.055.055 0 01-.021.014c-.01.003-.019.005-.03.005a.078.078 0 01-.036-.007c-.005-.002-.01-.007-.016-.012L8.58 15.3 3.152 9.937V3.19c0-.014.021-.042.061-.042h6.58l11.05 11.151.007.007c.002.003.002.005.005.007l.002.007v.003c0 .002 0 .007-.002.011zM4.505 6.267a1.669 1.669 0 103.337 0 1.669 1.669 0 00-3.337 0z"
+          fillOpacity={0.85}
+          fill="#000"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function List(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M3 5.977a1.477 1.477 0 102.953 0 1.477 1.477 0 00-2.953 0zm17.154.68H8.487a.847.847 0 010-1.692h11.67c.466 0 .845.379.845.845a.848.848 0 01-.848.846zM3 11.956a1.477 1.477 0 102.953 0 1.477 1.477 0 00-2.953 0zm17.154.683H8.487a.847.847 0 010-1.692h11.67c.466 0 .845.38.845.846a.85.85 0 01-.848.846zM3 17.94a1.477 1.477 0 102.953 0 1.477 1.477 0 00-2.953 0zm17.154.681H8.487a.847.847 0 010-1.692h11.67c.466 0 .845.38.845.846a.848.848 0 01-.848.846z"
+          fillOpacity={0.85}
+          fill="#000"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function Bookmark(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M19 1H5a1 1 0 00-1 1v20l.006.114c.087.814 1.099 1.196 1.701.593L12 16.415l6.293 6.292c.63.63 1.707.184 1.707-.707V2a1 1 0 00-1-1zm-1 2v16.585l-5.293-5.292-.094-.083a1 1 0 00-1.32.083L6 19.584V3h12z"
+          fillOpacity={0.85}
+          fill="#000"
+        />
+      </g>
+    </svg>
+  );
+}
