@@ -408,18 +408,11 @@ exports[`With className object Icon CaretUpOutline 1`] = `
       <path
         d="M0 0H24V24H0z"
       />
-      <mask
-        fill="#fff"
-      >
-        <use
-          xlink:href="#a"
-        />
-      </mask>
-      <use
-        fill="#000"
+      <path
+        d="M20.993 16.966c0-.225-.075-.452-.225-.642l-7.99-9.933a1.025 1.025 0 00-1.596 0l-7.948 9.891a1.024 1.024 0 001.596 1.282l7.151-8.897 7.19 8.942a1.024 1.024 0 001.822-.643z"
+        fill="currentColor"
         fill-opacity="0.85"
         fill-rule="nonzero"
-        xlink:href="#a"
       />
     </g>
   </svg>
@@ -1546,18 +1539,11 @@ exports[`With className string Icon CaretUpOutline 1`] = `
       <path
         d="M0 0H24V24H0z"
       />
-      <mask
-        fill="#fff"
-      >
-        <use
-          xlink:href="#a"
-        />
-      </mask>
-      <use
-        fill="#000"
+      <path
+        d="M20.993 16.966c0-.225-.075-.452-.225-.642l-7.99-9.933a1.025 1.025 0 00-1.596 0l-7.948 9.891a1.024 1.024 0 001.596 1.282l7.151-8.897 7.19 8.942a1.024 1.024 0 001.822-.643z"
+        fill="currentColor"
         fill-opacity="0.85"
         fill-rule="nonzero"
-        xlink:href="#a"
       />
     </g>
   </svg>
@@ -2684,18 +2670,11 @@ exports[`Without className Icon CaretUpOutline 1`] = `
       <path
         d="M0 0H24V24H0z"
       />
-      <mask
-        fill="#fff"
-      >
-        <use
-          xlink:href="#a"
-        />
-      </mask>
-      <use
-        fill="#000"
+      <path
+        d="M20.993 16.966c0-.225-.075-.452-.225-.642l-7.99-9.933a1.025 1.025 0 00-1.596 0l-7.948 9.891a1.024 1.024 0 001.596 1.282l7.151-8.897 7.19 8.942a1.024 1.024 0 001.822-.643z"
+        fill="currentColor"
         fill-opacity="0.85"
         fill-rule="nonzero"
-        xlink:href="#a"
       />
     </g>
   </svg>

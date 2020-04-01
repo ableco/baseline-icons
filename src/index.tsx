@@ -842,10 +842,12 @@ export function CaretUpOutline(props: BaseProps): JSX.Element {
       </defs>
       <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
         <path d="M0 0H24V24H0z" />
-        <mask fill="#fff">
-          <use xlinkHref="#a" />
-        </mask>
-        <use fillOpacity={0.85} fill="#000" fillRule="nonzero" xlinkHref="#a" />
+        <path
+          d="M20.993 16.966c0-.225-.075-.452-.225-.642l-7.99-9.933a1.025 1.025 0 00-1.596 0l-7.948 9.891a1.024 1.024 0 001.596 1.282l7.151-8.897 7.19 8.942a1.024 1.024 0 001.822-.643z"
+          fill="currentColor"
+          fillOpacity={0.85}
+          fillRule="nonzero"
+        />
       </g>
     </svg>
   );
