@@ -28,4 +28,16 @@ describe('With className', () => {
       ).toMatchSnapshot();
     });
   });
+
+  describe('array', () => {
+    test.each(Object.keys(Icons))('Icon %s', icon => {
+      const Icon = Object.entries(Icons).find(([name]) => name === icon)?.[1];
+      if (!Icon) throw new Error(`Icon ${icon} doesn't exists`);
+      expect(
+        render(
+          <Icon className={[{ 'w-4': true, 'h-4': false }, 'text-black']} />
+        ).container
+      ).toMatchSnapshot();
+    });
+  });
 });
