@@ -1011,3 +1011,26 @@ export function PlusCircle(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function BoxChecked(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M16.907 7.164l-7.676 7.7L7.23 11.36a.842.842 0 00-1.15-.315.842.842 0 00-.315 1.151l2.55 4.465a.845.845 0 001.36.15L18.1 8.36a.844.844 0 00-.002-1.193.837.837 0 00-1.19-.003zm3.919-3.986v17.65H3.177V3.178h17.649zm0-1.688H3.177c-.932 0-1.687.755-1.687 1.688v17.65c0 .933.755 1.688 1.688 1.688h17.65c.933 0 1.688-.755 1.688-1.688V3.178a1.691 1.691 0 00-1.69-1.688z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
