@@ -133,6 +133,34 @@ exports[`With className array Icon Bookmark 1`] = `
 </div>
 `;
 
+exports[`With className array Icon BoxChecked 1`] = `
+<div>
+  <svg
+    class="w-4 text-black fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M16.907 7.164l-7.676 7.7L7.23 11.36a.842.842 0 00-1.15-.315.842.842 0 00-.315 1.151l2.55 4.465a.845.845 0 001.36.15L18.1 8.36a.844.844 0 00-.002-1.193.837.837 0 00-1.19-.003zm3.919-3.986v17.65H3.177V3.178h17.649zm0-1.688H3.177c-.932 0-1.687.755-1.687 1.688v17.65c0 .933.755 1.688 1.688 1.688h17.65c.933 0 1.688-.755 1.688-1.688V3.178a1.691 1.691 0 00-1.69-1.688z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
 exports[`With className array Icon Calendar 1`] = `
 <div>
   <svg
@@ -1372,6 +1400,34 @@ exports[`With className object Icon Bookmark 1`] = `
         d="M19 1H5a1 1 0 00-1 1v20l.006.114c.087.814 1.099 1.196 1.701.593L12 16.415l6.293 6.292c.63.63 1.707.184 1.707-.707V2a1 1 0 00-1-1zm-1 2v16.585l-5.293-5.292-.094-.083a1 1 0 00-1.32.083L6 19.584V3h12z"
         fill="#000"
         fill-opacity="0.85"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`With className object Icon BoxChecked 1`] = `
+<div>
+  <svg
+    class="w-4 fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M16.907 7.164l-7.676 7.7L7.23 11.36a.842.842 0 00-1.15-.315.842.842 0 00-.315 1.151l2.55 4.465a.845.845 0 001.36.15L18.1 8.36a.844.844 0 00-.002-1.193.837.837 0 00-1.19-.003zm3.919-3.986v17.65H3.177V3.178h17.649zm0-1.688H3.177c-.932 0-1.687.755-1.687 1.688v17.65c0 .933.755 1.688 1.688 1.688h17.65c.933 0 1.688-.755 1.688-1.688V3.178a1.691 1.691 0 00-1.69-1.688z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
       />
     </g>
   </svg>
@@ -2623,6 +2679,34 @@ exports[`With className string Icon Bookmark 1`] = `
 </div>
 `;
 
+exports[`With className string Icon BoxChecked 1`] = `
+<div>
+  <svg
+    class="w-4 h-4 fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M16.907 7.164l-7.676 7.7L7.23 11.36a.842.842 0 00-1.15-.315.842.842 0 00-.315 1.151l2.55 4.465a.845.845 0 001.36.15L18.1 8.36a.844.844 0 00-.002-1.193.837.837 0 00-1.19-.003zm3.919-3.986v17.65H3.177V3.178h17.649zm0-1.688H3.177c-.932 0-1.687.755-1.687 1.688v17.65c0 .933.755 1.688 1.688 1.688h17.65c.933 0 1.688-.755 1.688-1.688V3.178a1.691 1.691 0 00-1.69-1.688z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
 exports[`With className string Icon Calendar 1`] = `
 <div>
   <svg
@@ -3862,6 +3946,34 @@ exports[`Without className Icon Bookmark 1`] = `
         d="M19 1H5a1 1 0 00-1 1v20l.006.114c.087.814 1.099 1.196 1.701.593L12 16.415l6.293 6.292c.63.63 1.707.184 1.707-.707V2a1 1 0 00-1-1zm-1 2v16.585l-5.293-5.292-.094-.083a1 1 0 00-1.32.083L6 19.584V3h12z"
         fill="#000"
         fill-opacity="0.85"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`Without className Icon BoxChecked 1`] = `
+<div>
+  <svg
+    class="fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M16.907 7.164l-7.676 7.7L7.23 11.36a.842.842 0 00-1.15-.315.842.842 0 00-.315 1.151l2.55 4.465a.845.845 0 001.36.15L18.1 8.36a.844.844 0 00-.002-1.193.837.837 0 00-1.19-.003zm3.919-3.986v17.65H3.177V3.178h17.649zm0-1.688H3.177c-.932 0-1.687.755-1.687 1.688v17.65c0 .933.755 1.688 1.688 1.688h17.65c.933 0 1.688-.755 1.688-1.688V3.178a1.691 1.691 0 00-1.69-1.688z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
       />
     </g>
   </svg>
