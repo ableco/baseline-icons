@@ -1034,3 +1034,26 @@ export function BoxChecked(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function CheckCircleOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M16.905 7.162l-7.675 7.7-2.002-3.504a.842.842 0 00-1.15-.314.842.842 0 00-.315 1.15l2.55 4.465a.845.845 0 001.36.15l8.425-8.451a.844.844 0 00-.002-1.193.837.837 0 00-1.19-.003zM12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm7.291 19.291a10.259 10.259 0 01-3.279 2.21c-1.27.54-2.62.811-4.012.811-1.392 0-2.742-.271-4.013-.808a10.323 10.323 0 01-3.278-2.21 10.259 10.259 0 01-2.21-3.28A10.233 10.233 0 011.686 12c0-1.392.272-2.742.81-4.013a10.323 10.323 0 012.21-3.278 10.259 10.259 0 013.278-2.21c1.273-.54 2.623-.812 4.015-.812 1.392 0 2.742.272 4.012.81 1.229.52 2.33 1.262 3.28 2.21.946.946 1.692 2.05 2.21 3.278.539 1.273.81 2.623.81 4.015a10.253 10.253 0 01-3.02 7.291z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
