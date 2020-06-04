@@ -1057,3 +1057,47 @@ export function CheckCircleOutline(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Lightbulb(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M12 .15c4.9 0 8.85 4.197 8.85 9.35 0 2.12-.622 3.425-2.177 5.44l-.49.638c-.977 1.308-1.332 2.114-1.332 3.284V21a2.85 2.85 0 01-2.85 2.85H10A2.85 2.85 0 017.15 21v-2.137c0-1.243-.401-2.076-1.524-3.537l-.515-.67C3.714 12.8 3.15 11.52 3.15 9.5 3.15 4.347 7.1.15 12 .15zm3.15 19.7h-6.3V21c0 .593.449 1.08 1.025 1.143l.125.007h4.001a1.15 1.15 0 001.15-1.15l-.001-1.15zM12 1.85c-3.937 0-7.15 3.414-7.15 7.65 0 1.657.477 2.658 1.823 4.401l.515.672c.995 1.334 1.496 2.325 1.627 3.577h2.335V12.5h1.7v5.65h2.336c.13-1.252.631-2.243 1.626-3.577l.215-.283.506-.659c1.189-1.58 1.617-2.562 1.617-4.131 0-4.236-3.213-7.65-7.15-7.65z"
+          fillOpacity={0.85}
+          fill="currentColor"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function LightbulbOn(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M12 .15c4.9 0 8.85 4.197 8.85 9.35 0 2.019-.564 3.3-1.96 5.156l-.706.922c-.917 1.226-1.287 2.012-1.329 3.069l-.004.215V21a2.85 2.85 0 01-2.682 2.845L14 23.85H10a2.85 2.85 0 01-2.845-2.683L7.15 21v-2.137c0-1.17-.355-1.977-1.334-3.285l-.705-.921C3.714 12.799 3.15 11.519 3.15 9.5 3.15 4.347 7.1.15 12 .15zm3.15 19.7h-6.3V21c0 .593.449 1.08 1.025 1.143l.125.007h4.001a1.15 1.15 0 001.144-1.025L15.15 21l-.001-1.15z"
+          fillOpacity={0.85}
+          fill="currentColor"
+        />
+      </g>
+    </svg>
+  );
+}
