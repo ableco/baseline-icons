@@ -549,6 +549,35 @@ export function Close(props: BaseProps): JSX.Element {
   );
 }
 
+export function CloseBold(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g
+        transform="translate(-802 -222) translate(800) translate(0 101) translate(0 -79) translate(0 198)"
+        stroke="none"
+        strokeWidth={1}
+        fill="none"
+        fillRule="evenodd"
+      >
+        <path d="M0 0H16V16H0z" />
+        <path
+          d="M2.626 2.626a1 1 0 011.414 0L8 6.586l3.96-3.96a1 1 0 011.482 1.338l-.068.076L9.414 8l3.96 3.96.068.076a1 1 0 01-1.482 1.338L8 9.414l-3.96 3.96a1 1 0 01-1.482-1.338l.068-.076L6.586 8l-3.96-3.96-.068-.076a1 1 0 01.068-1.338z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="evenodd"
+        />
+      </g>
+    </svg>
+  );
+}
+
 export function Clock(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
@@ -589,6 +618,35 @@ export function Check(props: BaseProps): JSX.Element {
           fillOpacity={0.85}
           fill="currentColor"
           fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function CheckBold(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g
+        transform="translate(-801 -309) translate(800) translate(0 101) translate(0 -79) translate(0 284)"
+        stroke="none"
+        strokeWidth={1}
+        fill="none"
+        fillRule="evenodd"
+      >
+        <path d="M0 0H16V16H0z" />
+        <path
+          d="M12.626 3.293A1 1 0 0114.11 4.63l-.069.076-8.925 8.926-3.317-5.804a1 1 0 011.685-1.073l.052.081 2.017 3.53 7.074-7.074z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="evenodd"
         />
       </g>
     </svg>
@@ -912,7 +970,7 @@ export function Bookmark(props: BaseProps): JSX.Element {
         <path
           d="M19 1H5a1 1 0 00-1 1v20l.006.114c.087.814 1.099 1.196 1.701.593L12 16.415l6.293 6.292c.63.63 1.707.184 1.707-.707V2a1 1 0 00-1-1zm-1 2v16.585l-5.293-5.292-.094-.083a1 1 0 00-1.32.083L6 19.584V3h12z"
           fillOpacity={0.85}
-          fill="#000"
+          fill="currentColor"
         />
       </g>
     </svg>
