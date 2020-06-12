@@ -516,16 +516,14 @@ exports[`With className array Icon CheckBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-801 -309) translate(800) translate(0 101) translate(0 -79) translate(0 284)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M12.626 3.293A1 1 0 0114.11 4.63l-.069.076-8.925 8.926-3.317-5.804a1 1 0 011.685-1.073l.052.081 2.017 3.53 7.074-7.074z"
+        d="M18.94 4.94a1.5 1.5 0 012.224 2.007l-.103.114L7.672 20.449l-4.974-8.705a1.5 1.5 0 012.527-1.61l.077.122 3.026 5.294L18.939 4.94z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -629,16 +627,14 @@ exports[`With className array Icon CloseBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-802 -222) translate(800) translate(0 101) translate(0 -79) translate(0 198)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M2.626 2.626a1 1 0 011.414 0L8 6.586l3.96-3.96a1 1 0 011.482 1.338l-.068.076L9.414 8l3.96 3.96.068.076a1 1 0 01-1.482 1.338L8 9.414l-3.96 3.96a1 1 0 01-1.482-1.338l.068-.076L6.586 8l-3.96-3.96-.068-.076a1 1 0 01.068-1.338z"
+        d="M20.06 3.94a1.5 1.5 0 01.104 2.007l-.103.114L14.12 12l5.94 5.94.103.113a1.5 1.5 0 01-2.225 2.008L12 14.12l-5.94 5.94a1.5 1.5 0 01-2.224-2.008l.103-.114L9.88 12l-5.94-5.94-.103-.113a1.5 1.5 0 012.225-2.008L12 9.88l5.94-5.94a1.5 1.5 0 012.12 0z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -1929,16 +1925,14 @@ exports[`With className object Icon CheckBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-801 -309) translate(800) translate(0 101) translate(0 -79) translate(0 284)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M12.626 3.293A1 1 0 0114.11 4.63l-.069.076-8.925 8.926-3.317-5.804a1 1 0 011.685-1.073l.052.081 2.017 3.53 7.074-7.074z"
+        d="M18.94 4.94a1.5 1.5 0 012.224 2.007l-.103.114L7.672 20.449l-4.974-8.705a1.5 1.5 0 012.527-1.61l.077.122 3.026 5.294L18.939 4.94z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -2042,16 +2036,14 @@ exports[`With className object Icon CloseBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-802 -222) translate(800) translate(0 101) translate(0 -79) translate(0 198)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M2.626 2.626a1 1 0 011.414 0L8 6.586l3.96-3.96a1 1 0 011.482 1.338l-.068.076L9.414 8l3.96 3.96.068.076a1 1 0 01-1.482 1.338L8 9.414l-3.96 3.96a1 1 0 01-1.482-1.338l.068-.076L6.586 8l-3.96-3.96-.068-.076a1 1 0 01.068-1.338z"
+        d="M20.06 3.94a1.5 1.5 0 01.104 2.007l-.103.114L14.12 12l5.94 5.94.103.113a1.5 1.5 0 01-2.225 2.008L12 14.12l-5.94 5.94a1.5 1.5 0 01-2.224-2.008l.103-.114L9.88 12l-5.94-5.94-.103-.113a1.5 1.5 0 012.225-2.008L12 9.88l5.94-5.94a1.5 1.5 0 012.12 0z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -3342,16 +3334,14 @@ exports[`With className string Icon CheckBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-801 -309) translate(800) translate(0 101) translate(0 -79) translate(0 284)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M12.626 3.293A1 1 0 0114.11 4.63l-.069.076-8.925 8.926-3.317-5.804a1 1 0 011.685-1.073l.052.081 2.017 3.53 7.074-7.074z"
+        d="M18.94 4.94a1.5 1.5 0 012.224 2.007l-.103.114L7.672 20.449l-4.974-8.705a1.5 1.5 0 012.527-1.61l.077.122 3.026 5.294L18.939 4.94z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -3455,16 +3445,14 @@ exports[`With className string Icon CloseBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-802 -222) translate(800) translate(0 101) translate(0 -79) translate(0 198)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M2.626 2.626a1 1 0 011.414 0L8 6.586l3.96-3.96a1 1 0 011.482 1.338l-.068.076L9.414 8l3.96 3.96.068.076a1 1 0 01-1.482 1.338L8 9.414l-3.96 3.96a1 1 0 01-1.482-1.338l.068-.076L6.586 8l-3.96-3.96-.068-.076a1 1 0 01.068-1.338z"
+        d="M20.06 3.94a1.5 1.5 0 01.104 2.007l-.103.114L14.12 12l5.94 5.94.103.113a1.5 1.5 0 01-2.225 2.008L12 14.12l-5.94 5.94a1.5 1.5 0 01-2.224-2.008l.103-.114L9.88 12l-5.94-5.94-.103-.113a1.5 1.5 0 012.225-2.008L12 9.88l5.94-5.94a1.5 1.5 0 012.12 0z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -4755,16 +4743,14 @@ exports[`Without className Icon CheckBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-801 -309) translate(800) translate(0 101) translate(0 -79) translate(0 284)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M12.626 3.293A1 1 0 0114.11 4.63l-.069.076-8.925 8.926-3.317-5.804a1 1 0 011.685-1.073l.052.081 2.017 3.53 7.074-7.074z"
+        d="M18.94 4.94a1.5 1.5 0 012.224 2.007l-.103.114L7.672 20.449l-4.974-8.705a1.5 1.5 0 012.527-1.61l.077.122 3.026 5.294L18.939 4.94z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
@@ -4868,16 +4854,14 @@ exports[`Without className Icon CloseBold 1`] = `
       fill-rule="evenodd"
       stroke="none"
       stroke-width="1"
-      transform="translate(-802 -222) translate(800) translate(0 101) translate(0 -79) translate(0 198)"
     >
       <path
-        d="M0 0H16V16H0z"
+        d="M0 0H24V24H0z"
       />
       <path
-        d="M2.626 2.626a1 1 0 011.414 0L8 6.586l3.96-3.96a1 1 0 011.482 1.338l-.068.076L9.414 8l3.96 3.96.068.076a1 1 0 01-1.482 1.338L8 9.414l-3.96 3.96a1 1 0 01-1.482-1.338l.068-.076L6.586 8l-3.96-3.96-.068-.076a1 1 0 01.068-1.338z"
+        d="M20.06 3.94a1.5 1.5 0 01.104 2.007l-.103.114L14.12 12l5.94 5.94.103.113a1.5 1.5 0 01-2.225 2.008L12 14.12l-5.94 5.94a1.5 1.5 0 01-2.224-2.008l.103-.114L9.88 12l-5.94-5.94-.103-.113a1.5 1.5 0 012.225-2.008L12 9.88l5.94-5.94a1.5 1.5 0 012.12 0z"
         fill="currentColor"
         fill-opacity="0.85"
-        fill-rule="evenodd"
       />
     </g>
   </svg>
