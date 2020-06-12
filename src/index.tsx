@@ -552,7 +552,13 @@ export function Close(props: BaseProps): JSX.Element {
 export function CloseBold(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
-    <svg width="12px" height="12px" viewBox="0 0 12 12" {...props}>
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
       <g
         transform="translate(-802 -222) translate(800) translate(0 101) translate(0 -79) translate(0 198)"
         stroke="none"
@@ -621,7 +627,13 @@ export function Check(props: BaseProps): JSX.Element {
 export function CheckBold(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
-    <svg width="14px" height="11px" viewBox="0 0 14 11" {...props}>
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
       <g
         transform="translate(-801 -309) translate(800) translate(0 101) translate(0 -79) translate(0 284)"
         stroke="none"
