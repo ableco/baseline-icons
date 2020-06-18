@@ -78,6 +78,34 @@ exports[`With className array Icon ArrowDown 1`] = `
 </div>
 `;
 
+exports[`With className array Icon ArrowRight 1`] = `
+<div>
+  <svg
+    class="w-4 text-black fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
 exports[`With className array Icon Bell 1`] = `
 <div>
   <svg
@@ -1510,6 +1538,34 @@ exports[`With className object Icon ArrowDown 1`] = `
           fill-rule="evenodd"
         />
       </g>
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`With className object Icon ArrowRight 1`] = `
+<div>
+  <svg
+    class="w-4 fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
+      />
     </g>
   </svg>
 </div>
@@ -2952,6 +3008,34 @@ exports[`With className string Icon ArrowDown 1`] = `
 </div>
 `;
 
+exports[`With className string Icon ArrowRight 1`] = `
+<div>
+  <svg
+    class="w-4 h-4 fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
+      />
+    </g>
+  </svg>
+</div>
+`;
+
 exports[`With className string Icon Bell 1`] = `
 <div>
   <svg
@@ -4384,6 +4468,34 @@ exports[`Without className Icon ArrowDown 1`] = `
           fill-rule="evenodd"
         />
       </g>
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`Without className Icon ArrowRight 1`] = `
+<div>
+  <svg
+    class="fill-current"
+    height="24px"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <g
+      fill="none"
+      fill-rule="evenodd"
+      stroke="none"
+      stroke-width="1"
+    >
+      <path
+        d="M0 0H24V24H0z"
+      />
+      <path
+        d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
+        fill="currentColor"
+        fill-opacity="0.85"
+        fill-rule="nonzero"
+      />
     </g>
   </svg>
 </div>
