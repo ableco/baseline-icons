@@ -1172,22 +1172,22 @@ export function FeedbackReceived(props: BaseProps): JSX.Element {
 export function ArrowRight(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
-      <svg
-        width="24px"
-        height="24px"
-        viewBox="0 0 24 24"
-        {...props}
-        className={className}
-      >
-        <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
-          <path d="M0 0H24V24H0z" />
-          <path
-              d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
-              fillOpacity={0.85}
-              fill="currentColor"
-              fillRule="nonzero"
-          />
-        </g>
-      </svg>
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
   );
 }
