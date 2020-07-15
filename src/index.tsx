@@ -51,29 +51,6 @@ export function CaretDown(props: BaseProps): JSX.Element {
   );
 }
 
-export function Add(props: BaseProps): JSX.Element {
-  const className = cx(props.className, 'fill-current');
-  return (
-    <svg
-      width="24px"
-      height="24px"
-      viewBox="0 0 24 24"
-      {...props}
-      className={className}
-    >
-      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
-        <path d="M0 0H24V24H0z" />
-        <path
-          d="M20.238 11.156h-7.465V3.88a.843.843 0 10-1.688 0v7.277h-7.3a.843.843 0 100 1.688h7.3v7.3a.843.843 0 101.688 0v-7.3h7.465a.843.843 0 100-1.688z"
-          fillOpacity={0.85}
-          fill="currentColor"
-          fillRule="nonzero"
-        />
-      </g>
-    </svg>
-  );
-}
-
 export function ArrowDown(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
@@ -1102,6 +1079,120 @@ export function CheckCircleOutline(props: BaseProps): JSX.Element {
   );
 }
 
+export function ArrowRight(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function AddCircleOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm7.291 19.291a10.259 10.259 0 01-3.279 2.21c-1.27.54-2.62.811-4.012.811-1.392 0-2.742-.271-4.013-.808a10.323 10.323 0 01-3.278-2.21 10.259 10.259 0 01-2.21-3.28A10.233 10.233 0 011.686 12c0-1.392.272-2.742.81-4.013a10.323 10.323 0 012.21-3.278 10.259 10.259 0 013.278-2.21c1.273-.54 2.623-.812 4.015-.812 1.392 0 2.742.272 4.012.81 1.229.52 2.33 1.262 3.28 2.21.946.946 1.692 2.05 2.21 3.278.539 1.273.81 2.623.81 4.015a10.253 10.253 0 01-3.02 7.291zm-2.135-8.123h-4.3v-4.3a.843.843 0 10-1.688 0v4.3H6.844a.843.843 0 100 1.688h4.324v4.277a.843.843 0 101.688 0v-4.278h4.3a.843.843 0 100-1.688z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function CommentOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M12 0c1.612 0 3.178.295 4.652.874a12.031 12.031 0 013.81 2.395 11.16 11.16 0 012.585 3.572c.63 1.392.952 2.87.95 4.396a10.54 10.54 0 01-.952 4.394 11.206 11.206 0 01-2.585 3.572 12.031 12.031 0 01-3.81 2.395c-1.475.579-3.04.874-4.652.874-1.282 0-2.54-.187-3.745-.558L4.777 23.89a.839.839 0 01-.797.019.839.839 0 01-.457-.654l-.54-4.608C1.057 16.594 0 13.974 0 11.235c0-1.523.321-3.002.952-4.394C1.562 5.5 2.43 4.3 3.538 3.269A12.031 12.031 0 017.348.874 12.675 12.675 0 0112 0zm0 1.687c-1.4 0-2.756.256-4.03.757a10.38 10.38 0 00-3.282 2.06A9.507 9.507 0 002.49 7.54a8.877 8.877 0 00-.801 3.696c0 2.388.958 4.675 2.697 6.437a.84.84 0 01.237.495l.426 3.625 2.693-1.53a.844.844 0 01.689-.066c1.139.39 2.341.586 3.567.586 1.399 0 2.756-.253 4.033-.757a10.38 10.38 0 003.28-2.06 9.507 9.507 0 002.199-3.034 8.916 8.916 0 00.002-7.392 9.517 9.517 0 00-2.198-3.035 10.339 10.339 0 00-3.28-2.06A10.988 10.988 0 0012 1.687zM6.844 9.96a1.288 1.288 0 11.002 2.576 1.288 1.288 0 01-.002-2.576zm10.312 0a1.29 1.29 0 11-.002 2.58 1.29 1.29 0 01.002-2.58zM12 9.96a1.29 1.29 0 11-.002 2.58A1.29 1.29 0 0112 9.96z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function FeedbackReceived(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M7.816 2c1.723 0 3.345.673 4.564 1.891a6.405 6.405 0 011.891 4.564 6.415 6.415 0 01-1.891 4.563 6.435 6.435 0 01-2.492 1.552 7.8 7.8 0 013.455 2.013 7.8 7.8 0 011.676 2.484c.408.966.614 1.988.618 3.045a.843.843 0 11-1.687 0 6.091 6.091 0 00-1.795-4.336 6.091 6.091 0 00-4.336-1.796 6.091 6.091 0 00-4.336 1.796 6.091 6.091 0 00-1.796 4.336.843.843 0 11-1.687 0 7.774 7.774 0 012.29-5.53 7.8 7.8 0 013.455-2.012 6.435 6.435 0 01-2.492-1.552 6.405 6.405 0 01-1.891-4.563c0-1.723.672-3.345 1.891-4.564A6.405 6.405 0 017.816 2zm7.302 10.782l-.016-.028-.015-.029a.895.895 0 01-.056-.148.846.846 0 01.104-.686l.01-.015a.854.854 0 01.072-.094L18.71 7.79a.85.85 0 011.35 1.028l-.07.092-2.267 2.589 5.427.001a.85.85 0 010 1.7l-5.428-.001 2.268 2.591a.85.85 0 01.001 1.118l-.081.082a.85.85 0 01-1.118.001l-.082-.081-3.5-4-.06-.078-.032-.05zM7.814 3.687a4.773 4.773 0 00-4.767 4.768 4.773 4.773 0 004.767 4.767 4.771 4.771 0 004.767-4.767c0-2.63-2.14-4.768-4.767-4.768z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export function Info(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g fill="none" fillRule="evenodd" stroke="none" strokeWidth={1}>
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm7.291 19.291a10.259 10.259 0 01-3.279 2.21c-1.27.54-2.62.811-4.012.811-1.392 0-2.742-.271-4.013-.808a10.323 10.323 0 01-3.278-2.21 10.259 10.259 0 01-2.21-3.28A10.233 10.233 0 011.686 12c0-1.392.272-2.742.81-4.013a10.323 10.323 0 012.21-3.278 10.259 10.259 0 013.278-2.21c1.273-.54 2.623-.812 4.015-.812 1.392 0 2.742.272 4.012.81 1.229.52 2.33 1.262 3.28 2.21.946.946 1.692 2.05 2.21 3.278.539 1.273.81 2.623.81 4.015a10.253 10.253 0 01-3.02 7.291zm-4.52-2.753h-1.998V8.332a.843.843 0 00-.843-.844H9.68a.843.843 0 100 1.688h1.406v7.362H9.089a.843.843 0 100 1.688l1.997-.001h3.684a.843.843 0 100-1.688zm-3.685-11.37a.844.844 0 101.687 0 .844.844 0 00-1.687 0z"
+          fillOpacity={0.85}
+          fill="currentColor"
+        />
+      </g>
+    </svg>
+  );
+}
+
 export function Lightbulb(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
@@ -1138,74 +1229,6 @@ export function LightbulbOn(props: BaseProps): JSX.Element {
         <path d="M0 0H24V24H0z" />
         <path
           d="M12 .15c4.9 0 8.85 4.197 8.85 9.35 0 2.019-.564 3.3-1.96 5.156l-.706.922c-.917 1.226-1.287 2.012-1.329 3.069l-.004.215V21a2.85 2.85 0 01-2.682 2.845L14 23.85H10a2.85 2.85 0 01-2.845-2.683L7.15 21v-2.137c0-1.17-.355-1.977-1.334-3.285l-.705-.921C3.714 12.799 3.15 11.519 3.15 9.5 3.15 4.347 7.1.15 12 .15zm3.15 19.7h-6.3V21c0 .593.449 1.08 1.025 1.143l.125.007h4.001a1.15 1.15 0 001.144-1.025L15.15 21l-.001-1.15z"
-          fillOpacity={0.85}
-          fill="currentColor"
-        />
-      </g>
-    </svg>
-  );
-}
-
-export function FeedbackReceived(props: BaseProps): JSX.Element {
-  const className = cx(props.className, 'fill-current');
-  return (
-    <svg
-      width="24px"
-      height="24px"
-      viewBox="0 0 24 24"
-      {...props}
-      className={className}
-    >
-      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
-        <path d="M0 0H24V24H0z" />
-        <path
-          d="M7.816 2c1.723 0 3.345.673 4.564 1.891a6.405 6.405 0 011.891 4.564 6.415 6.415 0 01-1.891 4.563 6.435 6.435 0 01-2.492 1.552 7.8 7.8 0 013.455 2.013 7.8 7.8 0 011.676 2.484c.408.966.614 1.988.618 3.045a.843.843 0 11-1.687 0 6.091 6.091 0 00-1.795-4.336 6.091 6.091 0 00-4.336-1.796 6.091 6.091 0 00-4.336 1.796 6.091 6.091 0 00-1.796 4.336.843.843 0 11-1.687 0 7.774 7.774 0 012.29-5.53 7.8 7.8 0 013.455-2.012 6.435 6.435 0 01-2.492-1.552 6.405 6.405 0 01-1.891-4.563c0-1.723.672-3.345 1.891-4.564A6.405 6.405 0 017.816 2zm7.302 10.782l-.016-.028-.015-.029a.895.895 0 01-.056-.148.846.846 0 01.104-.686l.01-.015a.854.854 0 01.072-.094L18.71 7.79a.85.85 0 011.35 1.028l-.07.092-2.267 2.589 5.427.001a.85.85 0 010 1.7l-5.428-.001 2.268 2.591a.85.85 0 01.001 1.118l-.081.082a.85.85 0 01-1.118.001l-.082-.081-3.5-4-.06-.078-.032-.05zM7.814 3.687a4.773 4.773 0 00-4.767 4.768 4.773 4.773 0 004.767 4.767 4.771 4.771 0 004.767-4.767c0-2.63-2.14-4.768-4.767-4.768z"
-          fillOpacity={0.85}
-          fill="currentColor"
-          fillRule="nonzero"
-        />
-      </g>
-    </svg>
-  );
-}
-
-export function ArrowRight(props: BaseProps): JSX.Element {
-  const className = cx(props.className, 'fill-current');
-  return (
-    <svg
-      width="24px"
-      height="24px"
-      viewBox="0 0 24 24"
-      {...props}
-      className={className}
-    >
-      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
-        <path d="M0 0H24V24H0z" />
-        <path
-          d="M4.054 10.654H17.5c.003 0 .005-.005.003-.005L12.43 5.774a1.03 1.03 0 111.43-1.486l6.906 6.638a1.032 1.032 0 010 1.486l-6.944 6.673a1.027 1.027 0 01-1.458-.029 1.032 1.032 0 01.028-1.457l5.072-4.875c.002-.003 0-.005-.002-.005H4.03c-.549 0-.996-.429-1.03-.968a1.047 1.047 0 011.053-1.097z"
-          fillOpacity={0.85}
-          fill="currentColor"
-          fillRule="nonzero"
-        />
-      </g>
-    </svg>
-  );
-}
-
-export function Info(props: BaseProps): JSX.Element {
-  const className = cx(props.className, 'fill-current');
-  return (
-    <svg
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      {...props}
-      className={className}
-    >
-      <g fill="none" fillRule="evenodd" stroke="none" strokeWidth={1}>
-        <path d="M0 0H24V24H0z" />
-        <path
-          d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm7.291 19.291a10.259 10.259 0 01-3.279 2.21c-1.27.54-2.62.811-4.012.811-1.392 0-2.742-.271-4.013-.808a10.323 10.323 0 01-3.278-2.21 10.259 10.259 0 01-2.21-3.28A10.233 10.233 0 011.686 12c0-1.392.272-2.742.81-4.013a10.323 10.323 0 012.21-3.278 10.259 10.259 0 013.278-2.21c1.273-.54 2.623-.812 4.015-.812 1.392 0 2.742.272 4.012.81 1.229.52 2.33 1.262 3.28 2.21.946.946 1.692 2.05 2.21 3.278.539 1.273.81 2.623.81 4.015a10.253 10.253 0 01-3.02 7.291zm-4.52-2.753h-1.998V8.332a.843.843 0 00-.843-.844H9.68a.843.843 0 100 1.688h1.406v7.362H9.089a.843.843 0 100 1.688l1.997-.001h3.684a.843.843 0 100-1.688zm-3.685-11.37a.844.844 0 101.687 0 .844.844 0 00-1.687 0z"
           fillOpacity={0.85}
           fill="currentColor"
         />
