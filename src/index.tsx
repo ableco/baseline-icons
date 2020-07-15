@@ -5,6 +5,29 @@ type className = string | { [className: string]: boolean } | className[];
 
 type BaseProps = { className?: className };
 
+export function Add(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <g stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
+        <path d="M0 0H24V24H0z" />
+        <path
+          d="M20.238 11.156h-7.465V3.88a.843.843 0 10-1.688 0v7.277h-7.3a.843.843 0 100 1.688h7.3v7.3a.843.843 0 101.688 0v-7.3h7.465a.843.843 0 100-1.688z"
+          fillOpacity={0.85}
+          fill="currentColor"
+          fillRule="nonzero"
+        />
+      </g>
+    </svg>
+  );
+}
+
 export function CaretRight(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
