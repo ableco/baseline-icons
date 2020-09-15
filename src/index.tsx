@@ -1259,3 +1259,23 @@ export function LightbulbOn(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Forward(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M12.001 8.85h.849V4.067a.15.15 0 01.243-.118l8.399 6.65a1.15 1.15 0 010 1.803l-8.399 6.649a.15.15 0 01-.243-.118V14.15H12c-4.792 0-8.229 2.04-10.298 3.8-.081.069-.26.11-.448.029a.296.296 0 01-.13-.092s0 0 0 0c-.001-.001-.002-.001 0-.017.854-4.527 3.553-6.755 6.056-7.88a13.494 13.494 0 014.45-1.123 7.89 7.89 0 01.355-.017h.016z"
+        stroke="currentColor"
+        strokeWidth={1.7}
+      />
+    </svg>
+  );
+}
