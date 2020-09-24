@@ -835,6 +835,26 @@ exports[`With className array Icon Download 1`] = `
 </div>
 `;
 
+exports[`With className array Icon Drag 1`] = `
+<div>
+  <svg
+    class="w-4 text-black fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M7 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM7 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM14 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm-1.5 9a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+      fill="currentColor"
+      fill-opacity="0.45"
+      fill-rule="evenodd"
+    />
+  </svg>
+</div>
+`;
+
 exports[`With className array Icon Edit 1`] = `
 <div>
   <svg
@@ -2397,6 +2417,26 @@ exports[`With className object Icon Download 1`] = `
         fill-rule="nonzero"
       />
     </g>
+  </svg>
+</div>
+`;
+
+exports[`With className object Icon Drag 1`] = `
+<div>
+  <svg
+    class="w-4 fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M7 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM7 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM14 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm-1.5 9a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+      fill="currentColor"
+      fill-opacity="0.45"
+      fill-rule="evenodd"
+    />
   </svg>
 </div>
 `;
@@ -3967,6 +4007,26 @@ exports[`With className string Icon Download 1`] = `
 </div>
 `;
 
+exports[`With className string Icon Drag 1`] = `
+<div>
+  <svg
+    class="w-4 h-4 fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M7 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM7 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM14 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm-1.5 9a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+      fill="currentColor"
+      fill-opacity="0.45"
+      fill-rule="evenodd"
+    />
+  </svg>
+</div>
+`;
+
 exports[`With className string Icon Edit 1`] = `
 <div>
   <svg
@@ -5529,6 +5589,26 @@ exports[`Without className Icon Download 1`] = `
         fill-rule="nonzero"
       />
     </g>
+  </svg>
+</div>
+`;
+
+exports[`Without className Icon Drag 1`] = `
+<div>
+  <svg
+    class="fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M7 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM7 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM14 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm-1.5 9a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+      fill="currentColor"
+      fill-opacity="0.45"
+      fill-rule="evenodd"
+    />
   </svg>
 </div>
 `;
