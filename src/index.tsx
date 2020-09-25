@@ -1279,3 +1279,25 @@ export function Forward(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Drag(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M7 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM7 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM14 4.5a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm1.5 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm-1.5 9a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+        fill="currentColor"
+        fillOpacity={0.45}
+      />
+    </svg>
+  );
+}
