@@ -1327,7 +1327,8 @@ export function AddUser(props: BaseProps): JSX.Element {
 export function Trash(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
-    <svg width={24}
+    <svg
+      width={24}
       height={24}
       viewBox="0 0 24 24"
       fill="none"
