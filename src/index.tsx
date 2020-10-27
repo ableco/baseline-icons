@@ -1323,3 +1323,25 @@ export function AddUser(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Trash(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M21.275 3.768a.885.885 0 00-.616-.248h-4.321V2.174c0-.91-.74-1.65-1.65-1.65H7.31c-.91 0-1.65.74-1.65 1.65V3.52H1.318a.839.839 0 000 1.676h.74v14.587c0 .91.74 1.65 1.65 1.65h14.818c.91 0 1.65-.74 1.65-1.65V5.196h.483c.46 0 .861-.374.861-.838a.824.824 0 00-.245-.59zM2.973 21.11zm.124.028c.033.036.066.072.1.1-.021-.017-.04-.038-.061-.06l-.04-.04zM14.68 2.178H7.308v1.356h7.372V2.18zm3.844 17.603H3.708V5.196h14.815v14.585zM10.146 8.848a.842.842 0 111.685 0v7.819a.842.842 0 11-1.685 0v-7.82zm-3.722-.843a.842.842 0 00-.843.843v7.819a.842.842 0 101.685 0v-7.82a.843.843 0 00-.842-.842zm8.24.843a.842.842 0 111.685 0v7.819a.842.842 0 11-1.685 0v-7.82z"
+        fill="currentColor"
+        fillOpacity={0.45}
+      />
+    </svg>
+  );
+}
