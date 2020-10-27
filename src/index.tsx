@@ -1403,3 +1403,24 @@ export function Location(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Mail(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M19.295 6.7H4.70502L11.4644 10.2576C11.7997 10.434 12.2003 10.434 12.5356 10.2576L19.295 6.7ZM3.2 7.82896V17.3H20.8V7.82896L13.3274 11.7619C12.4965 12.1992 11.5035 12.1992 10.6726 11.7619L3.2 7.82896ZM1.5 6.7C1.5 5.76112 2.26112 5 3.2 5H20.8C21.7389 5 22.5 5.76112 22.5 6.7V17.3C22.5 18.2389 21.7389 19 20.8 19H3.2C2.26112 19 1.5 18.2389 1.5 17.3V6.7Z"
+        fill="currentColor"
+        fillOpacity="0.45"
+      />
+    </svg>
+  );
+}
