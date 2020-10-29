@@ -1346,3 +1346,22 @@ export function Trash(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Able(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M21.2073 17.3375V0.668754L20.6587 0L11.3788 2.6124L11.3813 3.37383C12.293 3.32874 12.9944 3.53914 13.4302 4.25297L4.94427 19.3738C3.63682 21.7007 2.26925 23.0307 0 23.0307V23.9123H9.45523V23.0307C5.7583 23.0307 4.91922 21.8785 6.22918 19.4941L7.93237 16.3331L14.5172 16.3256V19.5517C14.5172 21.876 13.7157 23.0332 11.3162 23.0332V23.9148H24V23.0332C21.5254 23.0307 21.2073 21.9862 21.2073 17.3375ZM8.46337 15.3563L14.5097 4.72386L14.5172 15.3563H8.46337Z"
+        fill="currentColor"
+        fillOpacity="0.45"
+      />
+    </svg>
+  );
+}
