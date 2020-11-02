@@ -1116,6 +1116,30 @@ export function CheckCircleOutline(props: BaseProps): JSX.Element {
   );
 }
 
+export function CheckCircleFilled(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M12 0C5.37187 0 0 5.37187 0 12C0 18.6281 5.37187 24 12 24C18.6281 24 24 18.6281 24 12C24 5.37187 18.6281 0 12 0Z"
+        fill="currentColor"
+        fillOpacity={0.45}
+      />
+      <path
+        d="M16.9054 7.16242L9.22962 14.8616L7.22806 11.3577C6.99603 10.9523 6.48275 10.8116 6.07728 11.0437C5.67181 11.2757 5.53119 11.789 5.76322 12.1944L8.31322 16.6593C8.4679 16.9312 8.75384 17.0859 9.04681 17.0859C9.18978 17.0859 9.33275 17.0507 9.464 16.9757C9.539 16.9312 9.60697 16.8796 9.66322 16.8187C9.66556 16.8163 9.67025 16.8116 9.67259 16.8093L18.0984 8.35773C18.4265 8.02726 18.4265 7.49288 18.096 7.16476C17.7679 6.83195 17.2359 6.83195 16.9054 7.16242Z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+
 export function ArrowRight(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
