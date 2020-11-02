@@ -571,6 +571,30 @@ export function CloseBold(props: BaseProps): JSX.Element {
   );
 }
 
+export function CloseCircleFilled(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M12 0C5.37187 0 0 5.37187 0 12C0 18.6281 5.37187 24 12 24C18.6281 24 24 18.6281 24 12C24 5.37187 18.6281 0 12 0Z"
+        fill="currentColor"
+        fill-opacity="0.45"
+      />
+      <path
+        d="M16.8093 7.17665C16.4788 6.84852 15.9444 6.84852 15.6163 7.17899L11.9999 10.8048L8.3835 7.17899C8.05537 6.84852 7.521 6.84852 7.19053 7.17665C6.86006 7.50477 6.86006 8.03915 7.18818 8.36962L10.8093 12.0001L7.18818 15.6306C6.86006 15.961 6.86006 16.4954 7.19053 16.8235C7.35459 16.9876 7.57022 17.0696 7.78584 17.0696C8.00147 17.0696 8.21943 16.9876 8.3835 16.8212L11.9999 13.1954L15.6163 16.8235C15.7804 16.9899 15.9983 17.072 16.214 17.072C16.4296 17.072 16.6452 16.9899 16.8093 16.8259C17.1397 16.4977 17.1397 15.9634 16.8116 15.6329L13.1905 12.0001L16.8093 8.36962C17.1397 8.03915 17.1397 7.50477 16.8093 7.17665Z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+
 export function Clock(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
