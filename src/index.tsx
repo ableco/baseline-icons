@@ -1540,3 +1540,22 @@ export function CompleteArrowDown(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function CompleteArrowUp(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M9.074 1.699v13.446c0 .002.005.004.005.002l4.875-5.072a1.03 1.03 0 111.486 1.43l-6.638 6.907a1.032 1.032 0 01-1.486 0L.644 11.467a1.027 1.027 0 01.028-1.457 1.032 1.032 0 011.458.028l4.875 5.072c.002.002.004 0 .004-.003V1.675c0-.548.43-.996.968-1.029.6-.035 1.097.455 1.097 1.053z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
