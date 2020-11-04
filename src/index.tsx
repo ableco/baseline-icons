@@ -1545,9 +1545,9 @@ export function CompleteArrowUp(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
     <svg
-      width={16}
-      height={19}
-      viewBox="0 0 16 19"
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
       fill="none"
       {...props}
       className={className}
