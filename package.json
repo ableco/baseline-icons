@@ -1,6 +1,6 @@
 {
   "name": "@baseline/icons",
-  "version": "1.25.0",
+  "version": "1.26.0",
   "description": "Baseline Icon Collection",
   "license": "MIT",
   "main": "dist/index.js",
