@@ -1559,3 +1559,22 @@ export function CompleteArrowUp(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function ArrowBothWays(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width="24px"
+      height="24px"
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M6.974 8.719h13.447c.002 0 .004.004.002.004l-5.072 4.875a1.03 1.03 0 101.43 1.486l6.906-6.637a1.032 1.032 0 000-1.486L16.743.288a1.027 1.027 0 00-1.458.028 1.032 1.032 0 00.028 1.458l5.072 4.875c.002.003 0 .005-.002.005H3.62c-.002 0-.004-.002-.002-.005L8.69 1.774A1.032 1.032 0 007.26.288L.317 6.961a1.032 1.032 0 000 1.486l6.907 6.637a1.03 1.03 0 101.43-1.486L3.58 8.723c-.002 0 0-.004.003-.004H6.974z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
