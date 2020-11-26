@@ -1711,9 +1711,9 @@ exports[`With className array Icon TalkBubble 1`] = `
 <div>
   <svg
     class="w-4 text-black fill-current"
-    height="24px"
+    height="24"
     viewBox="0 0 24 24"
-    width="24px"
+    width="24"
   >
     <g
       fill="none"
@@ -3567,9 +3567,9 @@ exports[`With className object Icon TalkBubble 1`] = `
 <div>
   <svg
     class="w-4 fill-current"
-    height="24px"
+    height="24"
     viewBox="0 0 24 24"
-    width="24px"
+    width="24"
   >
     <g
       fill="none"
@@ -5423,9 +5423,9 @@ exports[`With className string Icon TalkBubble 1`] = `
 <div>
   <svg
     class="w-4 h-4 fill-current"
-    height="24px"
+    height="24"
     viewBox="0 0 24 24"
-    width="24px"
+    width="24"
   >
     <g
       fill="none"
@@ -7279,9 +7279,9 @@ exports[`Without className Icon TalkBubble 1`] = `
 <div>
   <svg
     class="fill-current"
-    height="24px"
+    height="24"
     viewBox="0 0 24 24"
-    width="24px"
+    width="24"
   >
     <g
       fill="none"
