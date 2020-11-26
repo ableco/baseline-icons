@@ -28,6 +28,29 @@ export function Add(props: BaseProps): JSX.Element {
   );
 }
 
+export function Subtract(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <rect
+        x={1.75}
+        y={11}
+        width={20.5}
+        height={1.75}
+        rx={0.875}
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
 export function CaretRight(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
