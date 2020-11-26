@@ -1583,8 +1583,8 @@ export function TalkBubble(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (
     <svg
-      width="24px"
-      height="24px"
+      width={24}
+      height={24}
       viewBox="0 0 24 24"
       {...props}
       className={className}
