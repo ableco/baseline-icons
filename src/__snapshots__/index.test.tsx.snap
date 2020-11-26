@@ -1652,6 +1652,27 @@ exports[`With className array Icon Spinner 1`] = `
 </div>
 `;
 
+exports[`With className array Icon Subtract 1`] = `
+<div>
+  <svg
+    class="w-4 text-black fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <rect
+      fill="currentColor"
+      height="1.75"
+      rx="0.875"
+      width="20.5"
+      x="1.75"
+      y="11"
+    />
+  </svg>
+</div>
+`;
+
 exports[`With className array Icon Suitcase 1`] = `
 <div>
   <svg
@@ -3476,6 +3497,27 @@ exports[`With className object Icon Spinner 1`] = `
         fill-rule="nonzero"
       />
     </g>
+  </svg>
+</div>
+`;
+
+exports[`With className object Icon Subtract 1`] = `
+<div>
+  <svg
+    class="w-4 fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <rect
+      fill="currentColor"
+      height="1.75"
+      rx="0.875"
+      width="20.5"
+      x="1.75"
+      y="11"
+    />
   </svg>
 </div>
 `;
@@ -5308,6 +5350,27 @@ exports[`With className string Icon Spinner 1`] = `
 </div>
 `;
 
+exports[`With className string Icon Subtract 1`] = `
+<div>
+  <svg
+    class="w-4 h-4 fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <rect
+      fill="currentColor"
+      height="1.75"
+      rx="0.875"
+      width="20.5"
+      x="1.75"
+      y="11"
+    />
+  </svg>
+</div>
+`;
+
 exports[`With className string Icon Suitcase 1`] = `
 <div>
   <svg
@@ -7132,6 +7195,27 @@ exports[`Without className Icon Spinner 1`] = `
         fill-rule="nonzero"
       />
     </g>
+  </svg>
+</div>
+`;
+
+exports[`Without className Icon Subtract 1`] = `
+<div>
+  <svg
+    class="fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <rect
+      fill="currentColor"
+      height="1.75"
+      rx="0.875"
+      width="20.5"
+      x="1.75"
+      y="11"
+    />
   </svg>
 </div>
 `;
