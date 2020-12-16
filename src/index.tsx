@@ -1206,6 +1206,26 @@ export function ArrowRight(props: BaseProps): JSX.Element {
   );
 }
 
+export function ArrowLeft(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M20.03 12.719H6.584c-.003 0-.005.004-.003.004l5.072 4.875a1.03 1.03 0 11-1.43 1.486l-6.907-6.637a1.032 1.032 0 010-1.486l6.945-6.673a1.027 1.027 0 011.458.028c.394.41.382 1.064-.028 1.458L6.619 10.65c-.003.003 0 .005.002.005h13.432c.549 0 .996.429 1.029.968.035.6-.455 1.097-1.052 1.097z"
+        fill="currentColor"
+        fillOpacity={0.45}
+      />
+    </svg>
+  );
+}
+
 export function AddCircleOutline(props: BaseProps): JSX.Element {
   const className = cx(props.className, 'fill-current');
   return (

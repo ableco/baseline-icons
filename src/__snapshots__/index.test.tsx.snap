@@ -159,6 +159,24 @@ exports[`With className array Icon ArrowDown 1`] = `
 </div>
 `;
 
+exports[`With className array Icon ArrowLeft 1`] = `
+<div>
+  <svg
+    class="w-4 text-black fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      d="M20.03 12.719H6.584c-.003 0-.005.004-.003.004l5.072 4.875a1.03 1.03 0 11-1.43 1.486l-6.907-6.637a1.032 1.032 0 010-1.486l6.945-6.673a1.027 1.027 0 011.458.028c.394.41.382 1.064-.028 1.458L6.619 10.65c-.003.003 0 .005.002.005h13.432c.549 0 .996.429 1.029.968.035.6-.455 1.097-1.052 1.097z"
+      fill="currentColor"
+      fill-opacity="0.45"
+    />
+  </svg>
+</div>
+`;
+
 exports[`With className array Icon ArrowRight 1`] = `
 <div>
   <svg
@@ -2086,6 +2104,24 @@ exports[`With className object Icon ArrowDown 1`] = `
         />
       </g>
     </g>
+  </svg>
+</div>
+`;
+
+exports[`With className object Icon ArrowLeft 1`] = `
+<div>
+  <svg
+    class="w-4 fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      d="M20.03 12.719H6.584c-.003 0-.005.004-.003.004l5.072 4.875a1.03 1.03 0 11-1.43 1.486l-6.907-6.637a1.032 1.032 0 010-1.486l6.945-6.673a1.027 1.027 0 011.458.028c.394.41.382 1.064-.028 1.458L6.619 10.65c-.003.003 0 .005.002.005h13.432c.549 0 .996.429 1.029.968.035.6-.455 1.097-1.052 1.097z"
+      fill="currentColor"
+      fill-opacity="0.45"
+    />
   </svg>
 </div>
 `;
@@ -4021,6 +4057,24 @@ exports[`With className string Icon ArrowDown 1`] = `
 </div>
 `;
 
+exports[`With className string Icon ArrowLeft 1`] = `
+<div>
+  <svg
+    class="w-4 h-4 fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      d="M20.03 12.719H6.584c-.003 0-.005.004-.003.004l5.072 4.875a1.03 1.03 0 11-1.43 1.486l-6.907-6.637a1.032 1.032 0 010-1.486l6.945-6.673a1.027 1.027 0 011.458.028c.394.41.382 1.064-.028 1.458L6.619 10.65c-.003.003 0 .005.002.005h13.432c.549 0 .996.429 1.029.968.035.6-.455 1.097-1.052 1.097z"
+      fill="currentColor"
+      fill-opacity="0.45"
+    />
+  </svg>
+</div>
+`;
+
 exports[`With className string Icon ArrowRight 1`] = `
 <div>
   <svg
@@ -5948,6 +6002,24 @@ exports[`Without className Icon ArrowDown 1`] = `
         />
       </g>
     </g>
+  </svg>
+</div>
+`;
+
+exports[`Without className Icon ArrowLeft 1`] = `
+<div>
+  <svg
+    class="fill-current"
+    fill="none"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+  >
+    <path
+      d="M20.03 12.719H6.584c-.003 0-.005.004-.003.004l5.072 4.875a1.03 1.03 0 11-1.43 1.486l-6.907-6.637a1.032 1.032 0 010-1.486l6.945-6.673a1.027 1.027 0 011.458.028c.394.41.382 1.064-.028 1.458L6.619 10.65c-.003.003 0 .005.002.005h13.432c.549 0 .996.429 1.029.968.035.6-.455 1.097-1.052 1.097z"
+      fill="currentColor"
+      fill-opacity="0.45"
+    />
   </svg>
 </div>
 `;
