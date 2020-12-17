@@ -1701,3 +1701,45 @@ export function Markdown(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function CircleOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M0 12C0 5.372 5.372 0 12 0s12 5.372 12 12-5.372 12-12 12S0 18.628 0 12zm16.012 9.502a10.26 10.26 0 003.28-2.21A10.266 10.266 0 0022.311 12c0-1.392-.271-2.742-.81-4.015a10.259 10.259 0 00-2.21-3.279c-.95-.947-2.051-1.69-3.28-2.21A10.253 10.253 0 0012 1.688c-1.392 0-2.742.271-4.015.81a10.259 10.259 0 00-3.279 2.21c-.947.95-1.69 2.051-2.21 3.28A10.253 10.253 0 001.688 12c0 1.392.271 2.742.81 4.015a10.259 10.259 0 002.21 3.279c.95.947 2.051 1.69 3.28 2.21 1.27.537 2.62.808 4.012.808 1.392 0 2.742-.271 4.012-.81z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+export function CircleProgressFilled(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0z"
+        fill="currentColor"
+      />
+      <path
+        d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM18 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+        fill="#fff"
+      />
+    </svg>
+  );
+}
