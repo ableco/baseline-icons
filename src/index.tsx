@@ -1743,3 +1743,45 @@ export function CircleProgressFilled(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function DoubleTrackPreviousOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M12.457 20.768a1.027 1.027 0 001.441-.157 1.024 1.024 0 00-.157-1.44L4.8 11.98l8.897-7.149a1.024 1.024 0 00-1.282-1.596l-9.89 7.948a1.025 1.025 0 000 1.596l9.932 7.99zm7.734 0a1.027 1.027 0 001.441-.157 1.024 1.024 0 00-.156-1.44l-8.942-7.192 8.897-7.149a1.024 1.024 0 00-1.282-1.596l-9.89 7.948a1.025 1.025 0 000 1.596l9.932 7.99z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+export function DoubleTrackNextOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M2.524 19.172a1.024 1.024 0 101.285 1.596l9.932-7.99a1.025 1.025 0 000-1.596l-9.89-7.948A1.024 1.024 0 002.569 4.83l8.897 7.149-8.942 7.193zm7.734 0a1.024 1.024 0 101.285 1.596l9.933-7.99a1.025 1.025 0 000-1.596l-9.89-7.948a1.024 1.024 0 00-1.283 1.596L19.2 11.98l-8.941 7.193z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
