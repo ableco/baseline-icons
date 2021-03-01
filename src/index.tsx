@@ -1785,3 +1785,21 @@ export function DoubleTrackNextOutline(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function WarningOutline(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M10.714 16.07a1.286 1.286 0 102.572 0 1.286 1.286 0 00-2.572 0zm.429-8.142v4.928c0 .118.096.215.214.215h1.286a.215.215 0 00.214-.215V7.928a.215.215 0 00-.214-.214h-1.286a.215.215 0 00-.214.214zm12.741 11.785L12.742.43A.847.847 0 0012 0a.844.844 0 00-.742.429L.116 19.713A.857.857 0 00.858 21h22.284a.857.857 0 00.742-1.286zM2.9 18.966L12 3.21l9.101 15.755H2.9z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
