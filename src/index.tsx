@@ -1803,3 +1803,42 @@ export function WarningOutline(props: BaseProps): JSX.Element {
     </svg>
   );
 }
+
+export function Search(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M17.933 16.74l4.82 4.819c.329.33.329.864.003 1.195a.845.845 0 01-1.195 0l-4.821-4.821A8.963 8.963 0 0111 20a9 9 0 01-9-9 9 9 0 019-9 9 9 0 019 9 8.963 8.963 0 01-2.067 5.74zM11 18.313c.99 0 1.945-.193 2.845-.575a7.269 7.269 0 002.325-1.568A7.295 7.295 0 0018.312 11a7.295 7.295 0 00-2.142-5.17A7.295 7.295 0 0011 3.687 7.296 7.296 0 005.83 5.83 7.296 7.296 0 003.687 11a7.295 7.295 0 002.142 5.17A7.295 7.295 0 0011 18.312z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+export function Growth(props: BaseProps): JSX.Element {
+  const className = cx(props.className, 'fill-current');
+
+  return (
+    <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      {...props}
+      className={className}
+    >
+      <path
+        d="M6 3a7.002 7.002 0 016.913 5.895A6.479 6.479 0 0117.5 7H22v2.5a6.5 6.5 0 01-6.5 6.5H13v5h-2v-8H9a7 7 0 01-7-7V3h4zm14 6h-2.5a4.5 4.5 0 00-4.5 4.5v.5h2.5A4.5 4.5 0 0020 9.5V9zM6 5H4v1a5 5 0 005 5h2v-1a5 5 0 00-5-5z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
